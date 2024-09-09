@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "collect-usage": ["../src/index"],
+      "collect-usage/*": ["../src/*"]
+    }
+  }
+}
